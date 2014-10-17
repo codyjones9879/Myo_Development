@@ -1,72 +1,57 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=640">
+    <meta name="description" content="MYO Armband Development : My attempt at familiarizing myself with C++, Visual Studios, and Java applications.">
 
-    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
-    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <script type="text/javascript" src="javascripts/modernizr.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $('#main_content').headsmart()
-      })
-    </script>
-    <title>Myo development by codyjones9879</title>
+    <title>MYO Armband Development</title>
   </head>
 
   <body>
-    <a id="forkme_banner" href="https://github.com/codyjones9879/Myo_Development">View on GitHub</a>
-    <div class="shell">
 
-      <header>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <h1>Myo development</h1>
-            <h2>My Work trying to create apps for the MYO armband.</h2>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-      </header>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/codyjones9879/Myo_Development">View on GitHub</a>
 
-      <section id="downloads">
-        <span class="inner">
-          <a href="https://github.com/codyjones9879/Myo_Development/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/codyjones9879/Myo_Development/tarball/master" class="tgz"><em>download</em> .TGZ</a>
-        </span>
-      </section>
+          <h1 id="project_title">MYO Armband Development</h1>
+          <h2 id="project_tagline">My attempt at familiarizing myself with C++, Visual Studios, and Java applications.</h2>
 
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/codyjones9879/Myo_Development/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/codyjones9879/Myo_Development/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
 
-      <span class="banner-fix"></span>
-
-
-      <section id="main_content">
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
         <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+<a name="welcome-to-the-minority-report" class="anchor" href="#welcome-to-the-minority-report"><span class="octicon octicon-link"></span></a>Welcome to the Minority Report</h3>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+<p>This page is all about turning the MYO armband technology into something useful for complete control using the power of your forearm. </p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
+<pre><code>Attempting to find a Myo...
+Connected to a Myo armband!
+
+The Power is Yours!
+
 </code></pre>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
 <h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+<a name="the-blind-teacher---10162014" class="anchor" href="#the-blind-teacher---10162014"><span class="octicon octicon-link"></span></a>The Blind Teacher - 10/16/2014</h3>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+<p>This first little project was my original attempt to take the sample hello_myo.cpp file and be able to compile the file and run it with some minor changing to the code. This got my feet wet with using Visual Studios as a means to compile and a few syntactical commands using C++. All this project does is detect when the user raises their hand to a certain height and the software will indicate when it thinks you raised your hand. I picture it being useful if their is a blind teach asking students if they have a question about the material. A shy child who doesn't like to speak up decides to raise their hand but not say a word. How will the blind teacher know he/she has a question? Little does the teacher know that this child has a MYO on their arm and when they raise their hand, a notification is sent to the blind teacher letting them know this child has an inquery. </p>
 
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+<pre><code>$git clone https://github.com/codyjones9879/Myo_Development.git
+$git checkout &lt;your branch&gt;
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+</code></pre>
 
 <h3>
 <a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
@@ -78,21 +63,17 @@ $ git checkout gh-pages
 
 <p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
       </section>
+    </div>
 
-      <footer>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <p>this project by <a href="https://github.com/codyjones9879">codyjones9879</a> can be found on <a href="https://github.com/codyjones9879/Myo_Development">GitHub</a></p>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
-        <span class="octocat"></span>
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">MYO Armband Development maintained by <a href="https://github.com/codyjones9879">codyjones9879</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
       </footer>
-
     </div>
 
     
+
   </body>
 </html>
